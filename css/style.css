@@ -1,0 +1,12 @@
+.body {
+  padding-left: 56px;
+}
+
+.header {
+  position: absolute;
+}
+
+#square {
+  height: 50px;
+  width: 250px;
+}
