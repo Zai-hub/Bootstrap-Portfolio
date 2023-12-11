@@ -1,0 +1,13 @@
+body {
+  background-color: #f0f0f0; /* Light gray background color */
+}
+
+#navbarNav {
+  text-align: end;
+}
+
+.square {
+  width: 356px;
+  height: 356px;
+  padding-top: 30px;
+}
