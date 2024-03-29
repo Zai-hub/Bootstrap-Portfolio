@@ -1,12 +1,5 @@
 body {
-  background-color: #f0f0f0; /* Light gray background color */
-}
-
-footer {
-  padding: 25px 0;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #222222;
+  background-color: #497285;
 }
 
 #hero {
@@ -15,6 +8,28 @@ footer {
 }
 
 #work {
-  size-adjust: ;
   background-color: #497285;
+}
+
+.card-img-top {
+  height: 400px;
+  object-fit: cover;
+}
+
+#skills {
+  background-color: #497285;
+  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about-contact-section {
+  background-color: #497285;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
 }

@@ -1,38 +1,33 @@
-# Bootstrap-Portfolio
-1. Using Bootstrap, recreate your portfolio site with the following items:
- - A navigation bar
- - A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct   Bootstrap classes to your HTML.
-     - Include links that are applicable to your portfolio.
-     - Links should navigate to the appropriate sections
-2. A hero section
- - A jumbotron featuring your picture, your name, and any other information you'd like to include.
-3. A work section
- - A section displaying your work in grid.
- - If you need to use placeholder image use placehold.co Links to an external site.
- - Use Bootstrap cards for each project.
- - The description should give a brief overview of the work.
- - Each project will eventually link to your class project work!
-4. A skills section
- - List out the skills you expect to learn from the bootcamp.
-5. An about/contact section
- - An About Me section in the same row.
-6. A footer section
- - All hyperlinks should have a hover effect.
- - All buttons should display a box shadow upon hover.
-7. Your Bootstrap solution should minimize use of media queries.
-8. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+# Bootstrap Portfolio 
 
-Helpful Links:
+## Description: 
+This bootstrap portfolio showcases my work as a Wed Developer. It highlights different projects, skills aquired as well as an about me and contact section. 
 
-placehold.co: https://placehold.co
+## Features:
+- Nav Bar: You can easily navigate to different sections of the portfolio.
+###
+- Hero Secretion: Displays my picture, name and position. 
+###
+- Work Section: Displays projects in a grid layout with brief descriptions and a 'learn more' button that links to the relevant project.
+###
+- Skills Section: Lists the skills aquired.
+###
+- About Me/Contact Section: Provides information about me as well as ways to contact me.
+###
+- Footer: Copyright information.
 
-Bootstrap documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+## Technologies Used:
+- HTML
+###
+- CSS
+###
+- Bootstrap 
 
-Responsive web design: how to create media qyueries: https://www.youtube.com/watch?v=5xzaGSYd7jM
+## Screenshot:
+The following images show the website:
 
-Media queries 101 by css tricks: https://css-tricks.com/css-media-queries/
+![Top](./images/top.png)
+![Bottom](./images/bottom.png)
 
-Media query documentation: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
-
-Github Pages Guide: https://pages.github.com
-(Choose "Project Site" and "Start from Scratch" for correct instruction)
+## License:
+This project is licensed by MIT. 

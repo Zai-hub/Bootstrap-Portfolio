@@ -9,12 +9,11 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
-
-  <title>Front-end and Web Developer</title>
+  <title>Web Developer</title>
 </head>
 
 <body>
-  <!-- Navigation Bar include links that go to appropriate section -->
+  <!-- Navigation Bar -->
   <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg fixed-top" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Zainab</a>
@@ -24,7 +23,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link active" href="#hero">About Me</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#about-contact-section">About Me</a></li>
           <li class="nav-item"><a class="nav-link active" href="#work">Work</a></li>
           <li class="nav-item"><a class="nav-link active" href="#skills">Skills</a></li>
         </ul>
@@ -32,17 +31,17 @@
     </div>
   </nav>
 
-  <!-- Hero jumbotron with picture, name + any other info i want-->
+  <!-- Hero Jumbotron Section-->
   <section id="hero" class="jumbotron text-center">
     <img src="./images/femlae-avatar.jpg.avif" alt="My picture-avatar" class="square">
-    <h1>Zainab Touati</h1>
-    <p>About me here.</p>
+    <h1>Zainab Touati | Web Developer</h1>
   </section>
 
-  <!-- Work in a grid (boot cards) des: brief overview (link to class work)-->
+  <!-- Work Section(link to class work)-->
   <section id="work" class="container mt-4">
     <h2 class="text-center">Work</h2>
     <div class="row">
+
       <!-- Card 1 -->
       <div class="col-lg-4 mb-4">
         <div class="card">
@@ -51,10 +50,11 @@
             <h4 class="card-title">Pre-work Study Guide</h4>
             <p class="card-text">This project is my introduction to html and css.</p>
             <a href="https://zai-hub.github.io/prework_study_guide/" class="btn btn-primary">Learn More</a>
-            
+
           </div>
         </div>
       </div>
+
       <!-- Card 2-->
       <div class="col-lg-4 mb-4">
         <div class="card">
@@ -66,6 +66,7 @@
           </div>
         </div>
       </div>
+
       <!-- Card 3-->
       <div class="col-lg-4 mb-4">
         <div class="card">
@@ -77,105 +78,69 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
-  <!-- <div class="row row-cols-1 row-cols-md-2 g-4">
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- Skills section: list skills after bootcamp -->
-  <!-- About/contact sections in same row as above-->
-  <section class="contact-section bg-black" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-4" />
-              <div class="small text-black-50">zainab@gmail.com</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Instagram</h4>
-              <hr class="my-4" />
-              <div class="small text-black-50"><a href="#!">wwww.instagram/zainab</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <!-- <i class="fas fa-mobile-alt text-primary mb-2"></i> -->
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4" />
-              <div class="small text-black-50">+ 44 (7557123456) </div>
-            </div>
+<!-- Skills Section  class="bg-light py-5"-->
+<section id="skills">
+  <div class="container">
+    <h2 class="text-center mb-4">Skills</h2>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Skills</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">HTML5</li>
+              <li class="list-group-item">CSS</li>
+              <li class="list-group-item">JavaScript</li>
+              <li class="list-group-item">React</li>
+              <li class="list-group-item">Node.js</li>
+              <li class="list-group-item">Bootstrap</li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="social d-flex justify-content-center">
-        <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-        <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-        <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-      </div>
     </div>
-  </section>
-  
-   <!-- footer: hyperlink with hover effect, buttons with box shadow when hover-->  
-  <!-- minimuse media quieries use-->
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 All Rights Reserved.</p>
+  </div>
+</section>
 
+<!-- About/Contact Section -->
+<section id="about-contact-section" class="py-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- About Me-->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I'm Zainab, a web developer eager to learn and grow in this exciting field. I've just started my journey into the world of web development, exploring different coding languages and design. I'm passionate about creating websites that are not only functional but also visually appealing. I'm constantly learning new skills and excited to see where this journey takes me.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact-->
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2>Contact</h2>
+            <p>Email: zainab@gmail.com</p>
+            <p>Instagram: <a href="#!">www.instagram.com/zainab</a></p>
+            <p>Phone: +44 (755) 123-4567</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-light text-center py-3">
+    <div class="container" data-bs-theme="dark">
+      <p>&copy; 2024 All Rights Reserved</p>
     </div>
   </footer>
 
-  
 </body>
 </html>
