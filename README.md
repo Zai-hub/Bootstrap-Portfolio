@@ -29,5 +29,9 @@ The following images show the website:
 ![Top](./images/top.png)
 ![Bottom](./images/bottom.png)
 
+## Links:
+Github: https://github.com/Zai-hub/Bootstrap-Portfolio
+Deployment Link: https://zai-hub.github.io/Bootstrap-Portfolio/
+
 ## License:
 This project is licensed by MIT. 
