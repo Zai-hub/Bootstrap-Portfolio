@@ -27,6 +27,7 @@ This bootstrap portfolio showcases my work as a Wed Developer. It highlights dif
 The following images show the website:
 
 ![Top](./images/top.png)
+###
 ![Bottom](./images/bottom.png)
 
 ## Links:
